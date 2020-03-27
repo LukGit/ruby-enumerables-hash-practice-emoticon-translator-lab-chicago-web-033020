@@ -12,6 +12,7 @@ def load_library(file)
     meanhash[value[1]] = meaning
     emohash[value[0]] = value[1]
   end
+  binding.pry
   hash = {"get_meaning": meanhash, "get_emoticon": emohash}
 end
 
